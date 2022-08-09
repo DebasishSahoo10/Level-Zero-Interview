@@ -27,3 +27,5 @@ var decreaseCounter = () => {
 
 increaseBtn.addEventListener("click", increaseCounter)
 decreaseBtn.addEventListener("click", decreaseCounter)
+
+// we can also use innerText instaed of innerHTML. and that will work just fine. 
