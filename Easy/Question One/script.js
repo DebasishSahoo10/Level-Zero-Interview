@@ -13,8 +13,13 @@ var increaseCounter = () => {
 }
 
 var decreaseCounter = () => {
-    counterValue = counterValue - 1
-    counterHolder.innerHTML = (counterValue)
+    if (counterValue == 0) {
+        counterHolder.innerText = 0
+    } else {
+        counterValue = counterValue - 1
+        counterHolder.innerHTML = (counterValue)
+    }
+    
 }
 
 
