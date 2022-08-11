@@ -1,2 +1,2 @@
-# Interview Practice Questions
- A repo dedicated to JS interview questions (grouped by difficulty levels.
+# List Of Questions
+ 1. Build a counter application
