@@ -2,3 +2,4 @@
  1. Build a counter application
  2. Create a web app and render your name using any heading or paragraph tag. It should have a border of 1px around it. Create 2 buttons, '5px' and '10px' below your name. The width of border should change to 5px and 10px by clicking respective buttons.
  3. Display the both the results of this API's response : https://quick-access-api.desaihetav.repl.co/ on the screen at the same time with a click of a button.
+ 4. Take an input from the user in text format. Have 3 buttons with the names of "Log" ,"Warn" and "Error". If user clicks on "Log" button then the text entered by user will be shown in black color. Similarly if the user clicks on "Warn " and "Error " buttons then the text entered by user will be shown on the screen in the yellow and red colors respectively.  
