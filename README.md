@@ -1,2 +1,2 @@
 # Interview Practice Questions
- A repo dedicated to JS interview questions (grouped by difficulty levels) and done in both vanilla Js and React. To run React codes you need codesandbox and rest of the codes you can run on your local environment. I also included some Introductory Level Logic questions, as they are asked in some interviews.
+ A repo dedicated to JS interview questions (grouped by difficulty levels) and done in both vanilla Js and React. You might found some medimum difficulty questions very easy for you, so don't hesitate to start from whertever you want. To run React codes you need codesandbox and rest of the codes you can run on your local environment. I also included some Introductory Level Logic questions, as they are asked in some interviews.
