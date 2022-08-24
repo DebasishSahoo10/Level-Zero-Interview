@@ -2,3 +2,4 @@
  1. Build a counter application
  2. Create a web app and render your name using any heading or paragraph tag. It should have a border of 1px around it. Create 2 buttons, '5px' and '10px' below your name. The width of border should change to 5px and 10px by clicking respective buttons.
  3. Display the both the results of this API's response : https://quick-access-api.desaihetav.repl.co/ on the screen at the same time with a click of a button. 
+ 4. Create an Input Element, which shows a display message according to the Input text with the click of a button. If you type - "Tanvi" - then show, "She is the best CEO ever!". "Tanay" - then show, "He is our FUNNY mentor!". "Swapnil" - then show, "He helps us CONQUER jobs!". "Akanksha" - then show, "She is our CHEERFUL Interviewer!".
