@@ -1,3 +1,4 @@
 # List of Questions
 1. Create a web app, where I input my name, and then I input a password. If the password contains the input name in it, show an error message "Password can't have name"
 2. Create a web app, which On the Click of a button fetches data from the provided API and from the data, displays the item with the highest price on the screen, below the button. API : https://mock-practice.prakhar10v.repl.co/items
+3. Create 2 buttons with text YJHD and ZNMD. At the click of a button, call the given API with the query as same as the button text, and display the message you get on the screen. Followup: Instead of using calling the fetch function twice in both events(clicking of buttons), enclose it in a different function so that it can be used accordingly in both areas. API - https://mock-practice.prakhar10v.repl.co/bollywood?name= . Eg - Clicking on the button YJHD will make a call to - https://mock-practice.prakhar10v.repl.co/bollywood?name=YJHD
