@@ -9,4 +9,3 @@
  8. Create two objects with name, power, and age as Ram, 2500, Treta. Krishna, 2325, Dwapar. Say if every character in name is worth 35 power points. Write a function which takes two objects and return the person with more power based on their name and power both.
  9. Create a password checker web app. If password is lesser than 10 characters then show an error to user otherwise show success. Someone can ask to make the submit button disabled. Some can ask to make the input field green or red depending on input.
  10. Here's an API, it can give two errors. Either 404, or 401. If the error is 404, show the user 'page not found' and if the error is 401, show the user 'you are not logged in’. API - https://jsonplaceholder.typicode.com/dummyUser
- 11. Here' an API. It will give an error. Write a web app, call this API and read the error message. Show user the error message. API - https://unitube-server.herokuapp.com/playlists
