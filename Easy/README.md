@@ -11,3 +11,4 @@
  10. Here's an API, it can give two errors. Either 404, or 401. If the error is 404, show the user 'page not found' and if the error is 401, show the user 'you are not logged in’. API - https://jsonplaceholder.typicode.com/dummyUser
  11. You will have one input of type date, where I will select my birth date eg. 30-08-2003 and you need to show in output that how old I am on button click.
  12. Create a web app where I can input a text. Now, create three buttons h1, h2, h3. When I click on any of the button, the text should become h1, h2, or h3.
+ 13. Create a web app where I can input a text. Now create two buttons + and -. On clicking + increase the fontSize by 2px and vice versa.
