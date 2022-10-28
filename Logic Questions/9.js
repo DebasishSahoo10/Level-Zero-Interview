@@ -1,11 +1,22 @@
-// Write a program to take an input from a user and find its Factorial. Example: Factorial of 5 is 120
+// Write a Program to take a number input from user and find if the number is Prime or not.
 
 
-var input = 7;
-var n = input 
+var num = 7
+var isPrime
 
-for (let i = 1; i<n; i++) {
-  input = input * (n-i)
+
+for (let i=2; i<num; i++) {
+  if (num % i == 0) {
+    isPrime = false
+    break
+  } else {
+    isPrime = true
+  }
 }
 
-console.log(input)
+
+if (isPrime == true) {
+  console.log("Prime")
+} else {
+  console.log("Not Prime")
+}
