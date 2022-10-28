@@ -18,4 +18,4 @@ var userNum = 5
 
 for (let i=1; i<13; i++) {
   console.log(`${userNum} * ${i} = ${userNum * i}`) 
-}
+} 
