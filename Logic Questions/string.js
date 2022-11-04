@@ -11,11 +11,11 @@ var removeString = (string, n) => {
     console.log(array.join(" "))
   }
   
-  removeString("programming camp are amazing for programming", "programming")
+removeString("programming camp are amazing for programming", "programming")
 
 
 
-  
+
 // Write a program to toggle case of each character of the string "good afternoon" (example: "neogcamp" ⇒ "nEoGcAmP" )
 
 var toggleCase = (string) => {
