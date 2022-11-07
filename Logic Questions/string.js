@@ -30,4 +30,26 @@ var toggleCase = (string) => {
     console.log(array.join(""))
   }
   
-  toggleCase("neogcamp")
+toggleCase("neogcamp")
+
+
+
+// A program that counts the value of each character and prints the most repeated character?
+
+var getRepetitionChar = (n) => {
+  var charValues = {}
+  var maxKey = ''
+  for(let i=0; i<n.length; i++) {
+    var key = n[i]
+    if(!charValues[key]) {
+      charValues[key] = 0  
+    }
+    charValues[key] = charValues[key]+1
+    if (maxKey == '' || charValues[key] > charValues[maxKey]) {
+      maxKey = key
+    }  
+  }
+  console.log(maxKey)
+}
+
+getRepetitionChar("accessibility")
