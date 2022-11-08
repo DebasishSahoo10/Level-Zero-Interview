@@ -75,3 +75,19 @@ var removeSpaces = (string) => {
 }
 
 removeSpaces("Welcome to NeoG Camp")
+
+
+// Given an input string S and two characters c1 and c2, you need to replace every occurrence of character c1 with character c2 in the given string
+
+
+var replaceWord = (string, c1, c2) => {
+  string = string.split(" ")
+  for(let i=0; i<string.length; i++) {
+    if(string[i] == c1) {
+      string[i] = c2
+    }
+  }
+  console.log(string.join(" "))
+}
+
+replaceWord("Welcome to any Camp any", "any", "NeoG")
