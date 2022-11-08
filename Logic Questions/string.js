@@ -65,3 +65,13 @@ var reverseSentence = (string) => {
 }
 
 reverseSentence("Welcome to NeoG Camp")
+
+
+// Given an input string S that contains multiple words, you need to remove all the spaces present in the input string. There can be multiple spaces present after any word
+
+var removeSpaces = (string) => {
+  string = string.split(" ").join("")
+  console.log(string)
+}
+
+removeSpaces("Welcome to NeoG Camp")
