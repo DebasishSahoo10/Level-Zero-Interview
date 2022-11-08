@@ -40,9 +40,31 @@ var sumOfStringChars = (n) => {
     console.log(sum)
   }
   
-  sumOfStringChars("1234")
+sumOfStringChars("1234")
+
+// Age Calculation
+
+var inputField = document.querySelector("#input-field")
+var checkBtn = document.querySelector('#check-btn')
+var outputField = document.querySelector('#output-field')
 
 
+var ageCalculate = (userDOB) => {
+    var dob = new Date(userDOB)
+    var todaysDate = new Date()
+    var monthDiff = todaysDate.getTime() - dob.getTime()
+    var year = new Date(monthDiff).getFullYear()
+    var age = year - 1970
+    if (Math.abs(age) >= 70) {
+        outputField.innerText = age
+    } else {
+        outputField.innerText = age
+    }
+}
+
+checkBtn.addEventListener("click", ()=>{
+    ageCalculate(inputField.value)
+})
 
 // TO BE DONE - 1
 // Write a Program to cyclically Rotate a Number by X positions in the left direction, as provided by the user.
