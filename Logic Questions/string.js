@@ -170,9 +170,6 @@ mergeStrings("Bootcamp" , "best")
 
 // Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
 
-
-// Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
-
 var checkLength = (str) => {
   if (str[7]) {
     console.log(true)
@@ -180,3 +177,18 @@ var checkLength = (str) => {
 }
 
 checkLength("12345678")
+
+
+// Write a program to check whether the string is alphanumeric or not , eg:batman@45 contains digit 45
+
+var checkString = (string) => {
+  var matches = string.match(/\d+/g)
+  if(matches == null) {
+    console.log("the input is NOT alphanumeric")
+  } else {
+    console.log("the input is alphanumeric")
+  }
+}
+
+checkString("batman@45")
+
