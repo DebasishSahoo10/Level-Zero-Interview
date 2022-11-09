@@ -91,3 +91,22 @@ var replaceWord = (string, c1, c2) => {
 }
 
 replaceWord("Welcome to any Camp any", "any", "NeoG")
+
+
+
+// Given a string "tic tac toe is a fun game" convert the first 6 characters to capital case
+
+var partialUpperCase = (string) => {
+  var noSpaceString = string.split("")
+  var n = 6
+  for (let i=0; i<n; i++) {
+    if (noSpaceString[i] == " ") {
+      n = n + 1
+    } else {
+      noSpaceString[i] = noSpaceString[i].toUpperCase()
+    }
+  }
+  console.log(noSpaceString.join(""))
+}
+
+partialUpperCase("tic tac toe is a fun game")
