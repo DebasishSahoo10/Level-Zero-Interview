@@ -153,3 +153,17 @@ const substr = (str) => {
 }
 
 substr("NeoGcamp")
+
+
+// Write a program that takes two strings and copies smaller string into bigger string
+
+var mergeStrings = (string1, string2) => {
+  if (string1.length > string2.length) {
+    console.log(string1 + string2)
+  } else {
+    console.log(string2 + string1)
+  }
+}
+
+mergeStrings("neoG", "Camp")
+mergeStrings("Bootcamp" , "best")
