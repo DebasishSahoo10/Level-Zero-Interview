@@ -137,3 +137,19 @@ var extractDate = (string) => {
 }
 
 extractDate("Wed April 15, 7pm")
+
+
+
+// For a given input string(str), write a function to print all the possible substrings.Without using substr method
+
+const substr = (str) => {
+  const result=[]
+  for(let i=0;i<str.length;i++){
+    for(let j=i+1;j<str.length+1;j++){
+      result.push(str.slice(i,j))
+    }
+  }
+  console.log(result)
+}
+
+substr("NeoGcamp")
