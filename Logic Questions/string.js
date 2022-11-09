@@ -110,3 +110,19 @@ var partialUpperCase = (string) => {
 }
 
 partialUpperCase("tic tac toe is a fun game")
+
+
+
+// Write a program that masks all but last four characters of the string "5565534276455423" to '#'
+
+var maskString = (string) => {
+  var maskChars = string.substring(0, (string.length - 4)).split("")
+  for (let i=0; i<maskChars.length; i++) {
+    maskChars[i] = "#"
+  }
+  maskChars = maskChars.join("")
+  var joinedString = maskChars + string.substring((string.length - 4))
+  console.log(joinedString)
+}
+
+maskString("5565534276455423")
