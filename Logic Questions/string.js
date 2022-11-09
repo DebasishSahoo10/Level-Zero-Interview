@@ -167,3 +167,16 @@ var mergeStrings = (string1, string2) => {
 
 mergeStrings("neoG", "Camp")
 mergeStrings("Bootcamp" , "best")
+
+// Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
+
+
+// Write a program which receives a string str that calculates the length of a string and return true if the length is greater than 7 without using strlen()
+
+var checkLength = (str) => {
+  if (str[7]) {
+    console.log(true)
+  }
+}
+
+checkLength("12345678")
