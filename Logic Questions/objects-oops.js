@@ -90,3 +90,17 @@ var lowestMarkStudent = (studentData) => {
   }
   
 lowestMarkStudent(studentDetails)
+
+
+
+// Print the average marks of the class in computer subject.
+
+var averageMarkOfComputer = (studentData) => {
+    var averageComputerMark = 0
+    for (let i = 0; i < studentData.length; i++) {
+      averageComputerMark = averageComputerMark + studentData[i].computer 
+    }
+    console.log(averageComputerMark)
+  }
+  
+averageMarkOfComputer(studentDetails)
