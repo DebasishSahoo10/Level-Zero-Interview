@@ -104,3 +104,29 @@ var averageMarkOfComputer = (studentData) => {
   }
   
 averageMarkOfComputer(studentDetails)
+
+
+// Print the grades of all students:
+// Grade A if total marks is higher than or equal to 75%,
+// Grade B if higher than or equal to 60%,
+// Grade C if higher than or equal to 35%,
+// Grade D if lower than 35%.
+
+var gradation = (studentData) => {
+    var totalMark = 400
+    for(let i=0; i<studentData.length; i++) {
+      var totalStudentMark = studentData[i].maths + studentData[i].science + studentData[i].english + studentData[i].computer
+      if(totalStudentMark >= (0.75 * totalMark)) {
+        studentData[i].grade = "A"
+      } else if (totalStudentMark >= (0.60 * totalMark)) {
+        studentData[i].grade = "B"
+      } else if (totalStudentMark >= (0.35 * totalMark)) {
+        studentData[i].grade = "C" 
+      } else if (totalStudentMark < (0.35 * totalMark)) {
+        studentData[i].grade = "D"
+      }
+      console.log(`${studentData[i].name} : ${studentData[i].grade}`)
+    }
+  }
+  
+gradation(studentDetails)
