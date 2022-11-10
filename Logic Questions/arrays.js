@@ -22,3 +22,15 @@ var sumOfArray = (array) => {
   }
   
 sumOfArray([10, 4, 5, 2, 5, 6, 9])
+
+
+// Find maximum and minimum of an array
+
+var findExtremeElements = (array) => {
+    var maxElement = Math.max(...array)
+    var minElement = Math.min(...array)
+    console.log(maxElement)
+    console.log(minElement)
+  }
+  
+  findExtremeElements([10,4,5,2,5,6,9])
