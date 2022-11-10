@@ -71,4 +71,22 @@ var highestMarkStudent = (studentData) => {
     console.log(student)
   }
   
-  highestMarkStudent(studentDetails)
+highestMarkStudent(studentDetails)
+
+// Print the name of student whose total marks is lowest.
+
+var lowestMarkStudent = (studentData) => {
+    var lowestScore = studentData[0].maths + studentData[0].science + studentData[0].english + studentData[0].computer
+    var student;
+    for(let i=0; i<studentData.length; i++) {
+      var totalMark = studentData[i].maths + studentData[i].science + studentData[i].english + studentData[i].computer
+      if (totalMark < lowestScore) {
+        lowestScore = totalMark
+        student = studentData[i].name
+      }
+    }
+    console.log(lowestScore)
+    console.log(student)
+  }
+  
+lowestMarkStudent(studentDetails)
