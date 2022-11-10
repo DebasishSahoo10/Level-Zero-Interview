@@ -130,3 +130,21 @@ var gradation = (studentData) => {
   }
   
 gradation(studentDetails)
+
+
+// Print the total number of students passed and their names. Pass when total marks is greater than 35%
+
+
+var filterPassedStudents = (studentData) => {
+    var totalMark = 400
+    var passedStudents = []
+    for(let i=0; i<studentData.length; i++) {
+      var totalStudentMark = studentData[i].maths + studentData[i].science + studentData[i].english + studentData[i].computer
+      if(totalStudentMark > (0.35 * totalMark)) {
+        passedStudents.push(studentData[i].name)
+      }
+    }
+    console.log(passedStudents)
+  }
+  
+filterPassedStudents(studentDetails)
