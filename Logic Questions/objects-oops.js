@@ -53,3 +53,22 @@ var getNameAndMarks = (studentData) => {
 }
 
 getNameAndMarks(studentDetails)
+
+
+// Print the name of student whose total marks is highest
+
+var highestMarkStudent = (studentData) => {
+    var highScore = 0
+    var student;
+    for(let i=0; i<studentData.length; i++) {
+      var totalMark = studentData[i].maths + studentData[i].science + studentData[i].english + studentData[i].computer
+      if (totalMark > highScore) {
+        highScore = totalMark
+        student = studentData[i].name
+      }
+    }
+    console.log(highScore)
+    console.log(student)
+  }
+  
+  highestMarkStudent(studentDetails)
